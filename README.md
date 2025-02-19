@@ -1,3 +1,5 @@
+⚠️ PROJET EN COURS
+
 # Intégration AJAX pour SPA et WordPress
 
 ## Description
