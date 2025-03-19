@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Fichiers de base de données SQLite
+*.sqlite
+*.sqlite3
+tennis_reservation.db
+
+# Dossier de log
+logs/
+*.log
+
+# Dossiers d'environnement de développement
+.vscode/
+.idea/
+*.swp
+
+# Fichiers de configuration d'environnement
+.env
+
+# Fichiers temporaires
+.DS_Store
+Thumbs.db
+
+# Fichiers compilés / générés
+/dist
+/build
