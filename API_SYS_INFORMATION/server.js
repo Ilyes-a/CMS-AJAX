@@ -9,14 +9,19 @@ const bcrypt = require("bcryptjs");
 console.log("✅ Bcrypt chargé !");
 require("dotenv").config();
 console.log("✅ Dotenv chargé !");
-const db = require("./database"); // Connexion SQLite
+const db = require("./database");
 console.log("✅ Base de données chargée !");
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
-const SECRET_KEY = "monSuperSecret"; // fichier .env plus tard !
+const SECRET_KEY = "monSuperSecret"; // À mettre dans .env plus tard
+
+// Route d'accueil
+app.get("/", (req, res) => {
+  res.send("🎾 API Tennis Reservation est en ligne !");
+});
 
 // Route d'inscription
 app.post("/register", (req, res) => {
@@ -70,4 +75,6 @@ app.post("/reserver", (req, res) => {
 });
 
 const PORT = 5000;
-app.listen(PORT, () => console.log(`Serveur API lancé sur http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`✅ Serveur API lancé sur http://localhost:${PORT}`));
+// Fin du fichier server.js
+
