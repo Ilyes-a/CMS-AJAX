@@ -3,10 +3,6 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
-# Fichiers de base de données SQLite
-*.sqlite
-*.sqlite3
-tennis_reservation.db
 
 # Dossier de log
 logs/
