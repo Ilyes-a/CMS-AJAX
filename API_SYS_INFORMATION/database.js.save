@@ -1,4 +1,3 @@
-
 const sqlite3 = require("sqlite3").verbose();
 console.log("📡 Tentative de connexion à SQLite...");
 
@@ -25,7 +24,7 @@ db.serialize(() => {
     terrain_id INTEGER,
     date TEXT,
     FOREIGN KEY(user_id) REFERENCES users(id)
-    UNIQUE(user_id, terrain_id, date)
+
   )`);
 });
 
