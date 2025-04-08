@@ -1,9 +1,0 @@
-{
-    "name": "monutilisateur/api-php",
-    "description": "API PHP pour réservation de terrains",
-    "type": "project",
-    "require": {
-        "php": ">=7.4",
-        "firebase/php-jwt": "^5.0"
-    }
-}

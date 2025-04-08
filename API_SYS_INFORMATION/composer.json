@@ -1,0 +1,11 @@
+{
+    "name": "vboxuser/api_sys_information",
+    "autoload": {
+        "psr-4": {
+            "Vboxuser\\ApiSysInformation\\": "src/"
+        }
+    },
+    "require": {
+        "firebase/php-jwt": "^6.11"
+    }
+}
